@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a3ff6c4cfba8f441ad689fae87e98a4, type: 3}
+  m_Name: Six's Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  npcName: Six
+  dialogueLines:
+  - ...
+  - "Tu te demandes peut \xEAtre ce que tu fais l\xE0.."
+  - "Tu es d\xE9sormais coinc\xE9 parmis nous d\xE9tach\xE9 du monde ext\xE9rieur.."
+  - "Et ta petite taille ? Une mal\xE9diction qui nous a tous touch\xE9.. "
+  - "Il existe un moyen de sortir par cette grande porte mais je serais toi je n'y
+    penserais m\xEAme pas vu ce qui nous attend dans le \"Dehors\".. "
+  - "Essaye de parler \xE0 martin il va t'aider \xE0 te familiariser \xE0 ton nouveau
+    corps tu pourras faire connaissance avec lui par la m\xEAme occasion.."
+  npcDialogueSound: {fileID: 8300000, guid: 47d52db5c233f894582a16a3cf8b7437, type: 3}

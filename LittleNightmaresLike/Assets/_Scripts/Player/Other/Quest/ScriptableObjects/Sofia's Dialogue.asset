@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a3ff6c4cfba8f441ad689fae87e98a4, type: 3}
+  m_Name: Sofia's Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  npcName: Sofia
+  dialogueLines:
+  - "Heyy t'as r\xE9ussi !! "
+  - "T'\xE9tais super impressionnant avec ton avion un papier un vrai pro ! "
+  - "La cl\xE9 bien m\xE9rit\xE9 ! Tu es t\xE9m\xE9raire pas comme Six la d\xE9pr\xE9ssive
+    fin bref.. "
+  - "Mais fais attention les danger derri\xE8re cette porte sont bien r\xE9els tout
+    ceux qui ont eu le malheur de s'y aventurer ont \xE9t\xE9 entendu crier de douleur
+    et ne sont jamais revenus.. "
+  - "Cela dit il parait qu'il y a bien une sortie et une fin \xE0 tout \xE7a trouve
+    l\xE0 pour t\xE9chapper de cet enfer"
+  - Bonne chance voyageuse !
+  npcDialogueSound: {fileID: 8300000, guid: 47d52db5c233f894582a16a3cf8b7437, type: 3}

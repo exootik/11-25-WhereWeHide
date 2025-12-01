@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a3ff6c4cfba8f441ad689fae87e98a4, type: 3}
+  m_Name: Alfred's Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  npcName: Alfred
+  dialogueLines:
+  - "Tu es arriv\xE9 jusqu'ici ! Je te f\xE9licite, j'imagine que Martin t'as appris
+    comment aggriper certains coin"
+  - "Il y a une cl\xE9 sur l'armoire en face de nous cela dit c'est beaucoup trop
+    loin pour simplement sauter nous ne pourrons pas l'atteindre.."
+  - "Il y a une cl\xE9 sur l'armoire en face de nous cela dit c'est beaucoup trop
+    loin pour simplement sauter nous ne pourrons pas l'atteindre.."
+  - 'Mais tu peux utiliser ton avion en papier on en a tous un ! '
+  - "Saute et appuie sur F direct apr\xE8s, avec cela tu pourras atteindre l'armoire
+    en face et rejoindre Sofia !"
+  - "Bonne chance ! si tu venais \xE0 malencontreusement tomber tu devrais tout refaire
+    ton parcours jusqu'ici ce qui serait disons.. Dommage"
+  npcDialogueSound: {fileID: 8300000, guid: 47d52db5c233f894582a16a3cf8b7437, type: 3}

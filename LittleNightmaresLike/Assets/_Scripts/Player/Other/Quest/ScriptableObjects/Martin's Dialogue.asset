@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a3ff6c4cfba8f441ad689fae87e98a4, type: 3}
+  m_Name: Martin's Dialogue
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  npcName: Martin
+  dialogueLines:
+  - 'Coucou c''est moi martin !! '
+  - "On dirait pas mais je suis tr\xE8s gentil.. \xE0 chaque fois que l'on a de la
+    visite ils n'osent pas s'approcher de moi par peur pourtant je suis une fleur.."
+  - "Je suis tr\xE8s content que tu sois venu me voir !! Pour te remercier je vais
+    t'aider \xE0 te familiariser avec ton nouveau corps !"
+  - "En \xE9tant petit tu es beaucoup plus l\xE9ger et agile tu peux faire des choses
+    que tu n'imaginais pas comme sauter sur le coin du bureau \xE0 ma droite pour
+    t'y accrocher et monter !"
+  - "Puis il y a une corde attacher \xE0 l'armoire t'inquiu\xE8te pas c'est du solide
+    tu peux t'y accrocher elle ne lachera pas pour toi ! pour moi par contre peut
+    \xEAtre c'est pour \xE7a je n'essaye pas.."
+  - 'Bon courage !!
+
+'
+  npcDialogueSound: {fileID: 8300000, guid: 47d52db5c233f894582a16a3cf8b7437, type: 3}
