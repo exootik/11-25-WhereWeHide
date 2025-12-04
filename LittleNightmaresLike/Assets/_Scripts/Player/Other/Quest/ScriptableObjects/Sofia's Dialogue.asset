@@ -15,9 +15,8 @@ MonoBehaviour:
   npcName: Sofia
   dialogueLines:
   - "Heyy t'as r\xE9ussi !! "
-  - "T'\xE9tais super impressionnant avec ton avion un papier un vrai pro ! "
-  - "La cl\xE9 bien m\xE9rit\xE9 ! Tu es t\xE9m\xE9raire pas comme Six la d\xE9pr\xE9ssive
-    fin bref.. "
+  - "T'\xE9tais super impressionnant avec ton avion un papier une vrai pro ! "
+  - "La cl\xE9 bien m\xE9rit\xE9 ! Tu es t\xE9m\xE9raire pas comme Six..."
   - "Mais fais attention les danger derri\xE8re cette porte sont bien r\xE9els tout
     ceux qui ont eu le malheur de s'y aventurer ont \xE9t\xE9 entendu crier de douleur
     et ne sont jamais revenus.. "

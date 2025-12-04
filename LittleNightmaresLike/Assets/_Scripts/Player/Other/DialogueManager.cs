@@ -157,7 +157,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (dialogueAudioSource != null && currentDialogue != null && currentDialogue.npcDialogueSound != null)
         {
-            dialogueAudioSource.PlayOneShot(currentDialogue.npcDialogueSound);
+            //dialogueAudioSource.PlayOneShot(currentDialogue.npcDialogueSound);
         }
     }
 
@@ -165,7 +165,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (dialogueAudioSource != null && dialogueAudioSource.isPlaying)
         {
-            dialogueAudioSource.Stop();
+            //dialogueAudioSource.Stop();
         }
     }
 

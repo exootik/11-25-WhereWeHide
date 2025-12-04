@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,6 +20,7 @@ public class StartMenuManager : MonoBehaviour
     [Header("UI References")]
     [SerializeField] private GameObject startMenuPanel;
     [SerializeField] private Button startButton;
+    [SerializeField] private GameObject infoInputPause;
 
     [Header("Audio")]
     [SerializeField] private AudioSource audioSource;
@@ -91,6 +93,8 @@ public class StartMenuManager : MonoBehaviour
 
         Time.timeScale = 1f;
 
+        StartCoroutine(ShowInfoInputPause(20));
+
         if (playerController != null)
             playerController.enabled = true;
 
@@ -107,5 +111,14 @@ public class StartMenuManager : MonoBehaviour
             audioSource.volume = clickVolume;
             audioSource.PlayOneShot(buttonClickSound);
         }
+    }
+
+    private IEnumerator ShowInfoInputPause(float waitSeconds)
+    {
+        infoInputPause.SetActive(true);
+
+        yield return new WaitForSeconds(waitSeconds);
+
+        infoInputPause.SetActive(false) ;
     }
 }

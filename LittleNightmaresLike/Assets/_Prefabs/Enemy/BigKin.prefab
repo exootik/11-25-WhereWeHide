@@ -2481,6 +2481,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8985390886233584617}
     m_Modifications:
+    - target: {fileID: 5333539370880801541, guid: 86b6c8cb275bbe048be02d1bf37a1969, type: 3}
+      propertyPath: m_Volume
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333539370880801541, guid: 86b6c8cb275bbe048be02d1bf37a1969, type: 3}
+      propertyPath: MaxDistance
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5414693555594287129, guid: 86b6c8cb275bbe048be02d1bf37a1969, type: 3}
       propertyPath: m_Name
       value: EnemyFootStepAudioSource
@@ -2592,6 +2600,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8813310460243423846, guid: 9fd694d50f3984f40804f689815c9c41, type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2615,6 +2627,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8985390886233584617}
     m_Modifications:
+    - target: {fileID: 2001465952918063011, guid: a677662adb05d104b841a3e2178b2ca8, type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5777357203744957559, guid: a677662adb05d104b841a3e2178b2ca8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.162016
@@ -2682,6 +2698,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8985390886233584617}
     m_Modifications:
+    - target: {fileID: 1625456543065990782, guid: 73c93094ceac0094486901cb397262f2, type: 3}
+      propertyPath: m_Volume
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 2355905807048512489, guid: 73c93094ceac0094486901cb397262f2, type: 3}
       propertyPath: m_Name
       value: JumpscareAudioSource

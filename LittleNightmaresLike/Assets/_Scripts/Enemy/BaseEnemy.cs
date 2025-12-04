@@ -56,7 +56,7 @@ public class BaseEnemy : MonoBehaviour
     [Tooltip("Intervalle entre les footsteps (secondes)")]
     [SerializeField] private float footstepInterval = 0.5f;
     [Tooltip("Volume de la respiration")]
-    [SerializeField][Range(0f, 1f)] private float breathingVolume = 0.3f;
+    [SerializeField][Range(0f, 1f)] private float breathingVolume = 0.1f;
 
     [Header("Audio 3D Distances")]
     [Tooltip("Distance min où le son est au volume max")]
@@ -66,7 +66,7 @@ public class BaseEnemy : MonoBehaviour
     [Tooltip("Distance min pour footsteps")]
     [SerializeField] private float footstepMinDistance = 1f;
     [Tooltip("Distance max où les footsteps sont audibles")]
-    [SerializeField] private float footstepMaxDistance = 15f;
+    [SerializeField] private float footstepMaxDistance = 8f;
     [Tooltip("Distance min pour respiration")]
     [SerializeField] private float breathingMinDistance = 0.5f;
     [Tooltip("Distance max où la respiration est audible")]
@@ -158,7 +158,7 @@ public class BaseEnemy : MonoBehaviour
         }
 
         jumpscareAudioSource.spatialBlend = 0f; 
-        jumpscareAudioSource.volume = 1f;
+        jumpscareAudioSource.volume = 0.1f;
     }
 
     private void Update()
